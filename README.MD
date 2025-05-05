@@ -41,15 +41,15 @@ Main functionalities:
 🗂 Project Structure
 
 backend-service/
-├── controllers/        # Business logic
-├── models/             # TypeScript models (Client, Appointment, Car)
-├── routes/             # Express route definitions
-├── data/               # # JSON database (db.json)
-├── db.ts               # lowdb instance configuration
-├── server.ts           # Express config and route mounting
-├── package.json
-├── tsconfig.json
-└── README.md           
+    -controllers/  # Business logic
+    -models/       # TypeScript models
+    -routes/       # Express route definitions
+    -data/         # JSON database (db.json)
+    -db.ts         # lowdb instance configuration
+    -server.ts     # Express config and route mounting
+    -package.json
+    -tsconfig.json
+    - README.md           
 
 🚀 Instalation
 
