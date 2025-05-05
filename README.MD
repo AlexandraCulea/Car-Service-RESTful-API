@@ -49,7 +49,7 @@ backend-service/
 ├── server.ts           # Express config and route mounting
 ├── package.json
 ├── tsconfig.json
-└── README.md           # Project documentation
+└── README.md           
 
 🚀 Instalation
 
