@@ -1,0 +1,131 @@
+{
+  "clients": [
+    {
+      "id": "12f9e7cb-3ffa-44c3-b9c0-c62c4b18a7df",
+      "firstName": "Lavinia",
+      "lastName": "Pop",
+      "email": "lavinia.pop@gmail.com",
+      "phoneNumbers": [
+        "0712345678"
+      ],
+      "isActive": true,
+      "cars": [
+        {
+          "id": "3dc44b19-6efb-4545-9bfb-f44c01bcf1a3",
+          "numberPlate": "B-320-LAV",
+          "vin": "JS2YC59A7H2100001",
+          "brand": "Suzuki",
+          "model": "Swift",
+          "year": 2023,
+          "engineType": "petrol",
+          "engineCapacity": 1000,
+          "horsepower": 82,
+          "kilowatts": 60
+        }
+      ]
+    },
+    {
+      "id": "fcd47b1f-e567-4768-8a87-9d38a07d5985",
+      "firstName": "Ana Maria",
+      "lastName": "Ionescu",
+      "email": "maria.ionescu@example.com",
+      "phoneNumbers": [
+        "0716886929",
+        "07208965262"
+      ],
+      "isActive": true,
+      "cars": [
+        {
+          "id": "8a05f12a-8db0-47bf-8910-9ce07ae03ced",
+          "numberPlate": "B-123-XYZ",
+          "vin": "1HGCM82633A123456",
+          "brand": "Toyota",
+          "model": "Corolla",
+          "year": 2022,
+          "engineType": "petrol",
+          "engineCapacity": 1800,
+          "horsepower": 140,
+          "kilowatts": 103
+        }
+      ]
+    },
+    {
+      "id": "7818b3c5-e0e3-4e18-ab42-fd4496bb4bde",
+      "firstName": "Bogdan",
+      "lastName": "Florea",
+      "email": "bogdan.floarea@yahoo.com",
+      "phoneNumbers": [
+        "0722111222",
+        "0733444555"
+      ],
+      "isActive": true,
+      "cars": [
+        {
+          "id": "0d850beb-0840-4eb0-877a-653a829bfd0a",
+          "numberPlate": "B-101-BGF",
+          "vin": "1HGCM82633A123456",
+          "brand": "Volvo",
+          "model": "XC90",
+          "year": 2024,
+          "engineType": "hybrid",
+          "engineCapacity": 2500,
+          "horsepower": 300,
+          "kilowatts": 221
+        },
+        {
+          "id": "3f93355b-92a3-45c5-9e18-b06b987717a4",
+          "numberPlate": "B-102-BGD",
+          "vin": "2HGCM82633A654321",
+          "brand": "Honda",
+          "model": "Civic",
+          "year": 2019,
+          "engineType": "diesel",
+          "engineCapacity": 1800,
+          "horsepower": 150,
+          "kilowatts": 110
+        }
+      ]
+    }
+  ],
+  "appointments": [
+    {
+      "id": "ef144117-5988-4751-8953-2de1108240a7",
+      "clientId": "fcd47b1f-e567-4768-8a87-9d38a07d5985",
+      "carId": "8a05f12a-8db0-47bf-8910-9ce07ae03ced",
+      "contactMethod": "phone",
+      "action": "Schimb-Ulei",
+      "date": "2025-06-10",
+      "time": "10:30",
+      "duration": 60,
+      "receptionNotes": "Zgârieturi ușoare pe portieră",
+      "processingNotes": "Spălat, ceruit, verificat mecanism",
+      "repairDuration": 80
+    },
+    {
+      "id": "d05201d1-368c-4789-8270-93d41c0cc6b0",
+      "clientId": "12f9e7cb-3ffa-44c3-b9c0-c62c4b18a7df",
+      "carId": "3dc44b19-6efb-4545-9bfb-f44c01bcf1a3",
+      "contactMethod": "inPerson",
+      "action": "Inlocuire parbriz",
+      "date": "2025-08-01",
+      "time": "11:00",
+      "duration": 90,
+      "receptionNotes": "Parbriz fisurat pe colț, crăpături longitudinale",
+      "processingNotes": "Înlocuit parbriz cu piese originale",
+      "repairDuration": 90
+    },
+    {
+      "id": "280446b9-b5d6-46e3-8194-9bcdaadbddb6",
+      "clientId": "7818b3c5-e0e3-4e18-ab42-fd4496bb4bde",
+      "carId": "0d850beb-0840-4eb0-877a-653a829bfd0a",
+      "contactMethod": "inPerson",
+      "action": "Înlocuire stop stânga",
+      "date": "2025-09-10",
+      "time": "14:00",
+      "duration": 30,
+      "receptionNotes": "Stop stânga ars complet; clientul a observat un martor in bord",
+      "processingNotes": "Demontat stop vechi; montat stop nou, testat funcționalitatea",
+      "repairDuration": 30
+    }
+  ]
+}
