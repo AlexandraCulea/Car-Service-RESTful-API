@@ -42,7 +42,7 @@ Main functionalities:
 
     backend-service/
     ├── controllers/        # Business logic
-    ├── models/             # TypeScript models
+    ├── models/             # TypeScript models(Client, Car, Appointment)
     ├── routes/             # Express route definitions
     ├── data/               # JSON database (db.json)
     ├── db.ts               # lowdb instance configuration
