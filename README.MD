@@ -38,7 +38,7 @@ Main functionalities:
 
     Ideal for prototyping: minimal configuration and dependencies
 
-🗂 Structura proiectului
+🗂 Project Structure
 
 backend-service/
 ├── controllers/        # Business logic
